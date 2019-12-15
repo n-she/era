@@ -1,0 +1,26 @@
+.scene__overlay{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: #470529;
+  @include square(100%);
+  @include transition(1s all ease-in-out);
+
+  &.is-hidden{
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.scene__inner{
+  height: 650vh;
+}
+
+.scene-item{
+  position: fixed;
+  opacity: 0;
+  height: 100vh;
+  width: 100%;
+}

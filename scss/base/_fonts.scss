@@ -1,0 +1,62 @@
+@import "../abstracts/custom-variables";
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontsUrl}Graphik-Light.eot');
+  src: url('#{$fontsUrl}Graphik-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Graphik-Light.woff2') format('woff2'),
+  url('#{$fontsUrl}Graphik-Light.woff') format('woff'),
+  url('#{$fontsUrl}Graphik-Light.ttf') format('truetype'),
+  url('#{$fontsUrl}Graphik-Light.svg#Graphik-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontsUrl}Graphik-Medium.eot');
+  src: url('#{$fontsUrl}Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Graphik-Medium.woff2') format('woff2'),
+  url('#{$fontsUrl}Graphik-Medium.woff') format('woff'),
+  url('#{$fontsUrl}Graphik-Medium.ttf') format('truetype'),
+  url('#{$fontsUrl}Graphik-Medium.svg#Graphik-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontsUrl}Graphik-Semibold.eot');
+  src: url('#{$fontsUrl}Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Graphik-Semibold.woff2') format('woff2'),
+  url('#{$fontsUrl}Graphik-Semibold.woff') format('woff'),
+  url('#{$fontsUrl}Graphik-Semibold.ttf') format('truetype'),
+  url('#{$fontsUrl}Graphik-Semibold.svg#Graphik-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('#{$fontsUrl}Graphik-Regular.eot');
+  src: url('#{$fontsUrl}Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}Graphik-Regular.woff2') format('woff2'),
+  url('#{$fontsUrl}Graphik-Regular.woff') format('woff'),
+  url('#{$fontsUrl}Graphik-Regular.ttf') format('truetype'),
+  url('#{$fontsUrl}Graphik-Regular.svg#Graphik-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('#{$fontsUrl}BebasNeueBold.eot');
+  src: url('#{$fontsUrl}BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontsUrl}BebasNeueBold.woff2') format('woff2'),
+  url('#{$fontsUrl}BebasNeueBold.woff') format('woff'),
+  url('#{$fontsUrl}BebasNeueBold.ttf') format('truetype'),
+  url('#{$fontsUrl}BebasNeueBold.svg#BebasNeueBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+

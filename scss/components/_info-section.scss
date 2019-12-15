@@ -1,0 +1,40 @@
+.info {
+  overflow: hidden;
+
+  .main-container {
+    height: 100%;
+  }
+  @include display-flex;
+  @include ai-flex-center;
+}
+
+.info__scroll {
+  padding-left: 7%;
+  p {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -1.14px;
+    white-space: nowrap;
+  }
+
+  @include respond-to(sm) {
+    p {
+      font-size: 4rem;
+    }
+  }
+  @include respond-to(md) {
+    p {
+      font-size: 5.3rem;
+    }
+  }
+  @include respond-to(xl) {
+    p {
+      font-size: 7.5rem;
+    }
+  }
+  @include respond-min(1660) {
+    p {
+      font-size: 7.78rem; //140px
+    }
+  }
+}
