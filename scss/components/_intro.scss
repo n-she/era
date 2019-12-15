@@ -16,6 +16,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
+  max-height: 100%;
 }
 
 .intro-01__link{
@@ -38,7 +40,7 @@
   }
 
   &.full{
-    width: 80%;
+    width: 70%;
     @include center;
     img{
       position: relative;
@@ -79,7 +81,9 @@
 }
 
 .intro-slider__full{
-  width: 80vw;
+  width: 70vw;
+  max-height: 100vh;
+  overflow: hidden;
   @include center;
 
   .intro__slider-item-inner{
